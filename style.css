@@ -5,4 +5,64 @@ body{
 #cabecalho {
     position: fixed;
     top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #11a36a;
+    color: white;
+}
+
+#cabecalho nav ul li a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: auto;
+    
+}
+
+#cabecalho nav ul li { 
+    list-style: none;
+    display: inline-block;
+}
+
+#titulo{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#minha_foto{
+    width: 150px;
+    position: arelative;
+    margin-top: 120px;
+}
+
+main{
+    border: 1px solid red;
+}
+
+article{
+    border: 1px solid red;
+    
+    /* float: left;
+    width: 45%;
+    text-align: justify;
+    position: relative; */
+
+}
+
+section{
+    border: 1px solid red;
+    /*float: right;
+    width: 45%;
+    text-align: justify;
+    position: relative;*/
+   
+}
+
+
+
+#rodape{
+    border: 1px solid blue;
+  align-items: center;
+       
 }
