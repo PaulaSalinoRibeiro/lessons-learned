@@ -16,8 +16,7 @@ body{
     color: white;
     font-weight: 700;
     font-size: 18px;
-    padding: auto;
-    
+    padding: auto;  
 }
 
 #cabecalho nav ul li { 
@@ -32,37 +31,44 @@ body{
 
 #minha_foto{
     width: 150px;
-    position: arelative;
-    margin-top: 120px;
+    margin-top: 120px; 
+    margin-left: 50px;
 }
 
-main{
-    border: 1px solid red;
+#licoes_aprendidas{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#licoes_a_aprender{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 article{
-    border: 1px solid red;
-    
-    /* float: left;
+    border: 5px solid #11a36a;
+    display: inline-block;
     width: 45%;
-    text-align: justify;
-    position: relative; */
-
+    margin-left: 20px;
+    padding: 5px;
 }
 
-section{
-    border: 1px solid red;
-    /*float: right;
+section aside{
+    border: 5px solid #11a36a;
+    display: inline-block;
     width: 45%;
-    text-align: justify;
-    position: relative;*/
-   
+    position: absolute;
+    left: 700px;
+    top:955px;
+    padding: 5px;  
 }
 
-
+table{
+   padding: 20px;
+}
 
 #rodape{
-    border: 1px solid blue;
-  align-items: center;
+    border: 1px solid grey;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
        
 }
