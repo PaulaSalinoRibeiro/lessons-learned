@@ -37,13 +37,15 @@ body{
 
 #licoes_aprendidas{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    line-height: 25px;
 }
 
 #licoes_a_aprender{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
 }
 
-article{
+.lado-esquerdo{
     border: 5px solid #11a36a;
     display: inline-block;
     width: 45%;
@@ -51,13 +53,13 @@ article{
     padding: 5px;
 }
 
-section aside{
+.lado-direito{
     border: 5px solid #11a36a;
     display: inline-block;
     width: 45%;
     position: absolute;
     left: 700px;
-    top:955px;
+    top:970px;
     padding: 5px;  
 }
 
